@@ -1,0 +1,15 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+#title {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+body {
+  background-image: url("corona_cover.min-1200x627.png");
+  background-color: #cccccc;
+}

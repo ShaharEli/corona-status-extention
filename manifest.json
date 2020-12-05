@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Corona Virus Status",
+    "version": "0.1.0",
+    "description": "Live coronavirus updates",
+    "icons": {
+        "16": "virus.png",
+        "48": "virus.png",
+        "128": "virus.png"
+    },
+    "browser_action": {
+        "default_popup": "corona.html"
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["corona.js"],
+        "css": ["corona.css"]
+    }]
+}
